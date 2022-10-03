@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #151719;
+  left: -200px;
+  transition: all 500ms linear;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul li {
+  color: rgba(255, 255, 255, 0.9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, .3);
+  text-align: center;
+}
+
+.logo {
+  border-radius: 20%;
+  display: block;
+  margin: 50 auto; 
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+  cursor: cell;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 3px solid #000;
+}
+ 
+#Cuerpo{
+  width: 700px;
+  height: 700px;
+  size: 700px;
+  text-align: center;
+}
